@@ -2,7 +2,7 @@ const Command = require('./command');
 const commandList = require('../commandList.json');
 
 module.exports = class List extends Command{
-    
+
     static action(message){
         var opt = JSON.parse(JSON.stringify(commandList));
         var data = "```\n";

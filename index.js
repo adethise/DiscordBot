@@ -9,7 +9,7 @@ executor.set('>google', require('./commands/google'))
 executor.set('>ping', require('./commands/ping'))
 executor.set('>yt', require('./commands/youtube'))
 executor.set('>s', require('./commands/sound'))
-//executor.set('>slap', require('./commands/slap'))
+executor.set('>slap', require('./commands/slap'))
 
 bot.login(auth.token)
 

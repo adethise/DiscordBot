@@ -1,5 +1,5 @@
 module.exports = class command{
-    
+
     static parse(message){
         if(this.match(message)){
             this.action(message)
@@ -16,4 +16,3 @@ module.exports = class command{
 
     }
 }
-

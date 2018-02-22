@@ -1,37 +1,22 @@
-{
-  "help": {
+[
+  {
     "Commande": "!help",
-    "Description": "Affiche la liste des commandes.",
-    "Usage": [
-      "!help"
-    ]
+    "Description": "Affiche la liste des commandes."
   },
-  "google": {
+  {
     "Commande": "!google",
-    "Description": "Affiche le résultat de la recherche google du paramètre",
-    "Usage": [
-      "!google paramètreDeRecherche  ex: !google loli hentai mk"
-    ]
+    "Description": "Affiche le résultat de la recherche google du paramètre"
   },
-  "ping":{
+  {
     "Commande": "!ping",
-    "Description": "Permet de savoir si le bot est réactif",
-    "Usage": [
-      "!ping"
-    ]
+    "Description": "Permet de savoir si le bot est réactif"
   },
-  "youtube": {
+  {
     "Commande": "!yt",
-    "Description": "Permet d'écouter une vidéo dans le channel.",
-    "Usage": [
-      "!yt https://youtu.be/a2-7Jh6FsL4"
-    ]
+    "Description": "Permet d'écouter une vidéo dans le channel."
   },
-  "sound": {
+  {
     "Commande": ".s",
-    "Description": "Le bot vient jouer un son dans le channel vocal ou vous êtes.",
-    "Usage": [
-      ".s cena",".s click", ".s notknowdawae",".s doyouknowdawae",".s itai",".s n",".s nani",".s chomosuke",".s teachdawae",".s sad",".s sad2",".s gay",".s ...",".s dun",".s fail",".s heaven",".s kaboom",".s mlg",".s scream",".s slap",".s fine", ".s toasty"
-    ]
+    "Description": "Le bot vient jouer un son dans le channel vocal ou vous êtes."
   }
-}
+]

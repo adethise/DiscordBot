@@ -2,10 +2,7 @@ const Command = require('./command')
 const YoutubeStream = require('ytdl-core')
 
 module.exports = class Youtube extends Command{
-    static match(message){
-        return message.content.startsWith('!yt')
-    }
-
+    
     static action(message){
       let args = message.content.split(' ')
       //récupère le channel de l'utilisateur qui a envoyé le message

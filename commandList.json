@@ -1,22 +1,22 @@
 [
   {
-    "Commande": "!help",
+    "Commande": ">help",
     "Description": "Affiche la liste des commandes."
   },
   {
-    "Commande": "!google",
+    "Commande": ">google",
     "Description": "Affiche le résultat de la recherche google du paramètre"
   },
   {
-    "Commande": "!ping",
+    "Commande": ">ping",
     "Description": "Permet de savoir si le bot est réactif"
   },
   {
-    "Commande": "!yt",
+    "Commande": ">yt",
     "Description": "Permet d'écouter une vidéo dans le channel."
   },
   {
-    "Commande": ".s",
+    "Commande": ">s",
     "Description": "Le bot vient jouer un son dans le channel vocal ou vous êtes."
   }
 ]

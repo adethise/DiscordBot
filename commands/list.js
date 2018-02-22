@@ -7,6 +7,9 @@ module.exports = class List extends Command{
     }
 
     static action(message){
+        let jsonList = JSON.parse(commandList)
+        console.log(jsonList)
+
         message.author.send("Voici la liste des commandes:")
     }
 }

@@ -2,11 +2,11 @@ const Command = require('./command')
 
 module.exports = class Sound extends Command{
   static match(message){
-    return message.content.startsWith('.')
+    return message.content.startsWith('.s')
   }
 
   static action(message){
-    let args = message.content.split('.')
+    let args = message.content.split(' ')
     let music = null
 
     switch (args[1]) {
@@ -38,6 +38,7 @@ module.exports = class Sound extends Command{
         music = 'teachutheway.mp3'
         break;
       default:
+        args[1] = undefined
         break;
     }
 
@@ -47,6 +48,11 @@ module.exports = class Sound extends Command{
     if(voiceChannel === undefined){
       message.reply("Tu n'es pas dans un chan vocal.")
     }
+
+    if(args[1] === undefined){
+      message.reply("!help pour les commandes.")
+    }
+
     else{
       //join le channel de ce connard.
       voiceChannel

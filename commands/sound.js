@@ -41,7 +41,40 @@ module.exports = class Sound extends Command{
         music = 'titanic.ogg'
         break;
       case 'sad2':
-        music = 'titanic2.ogg'
+        music = 'sad2.ogg'
+        break;
+      case 'gay':
+        music = 'ahgay.ogg'
+        break;
+      case '...':
+        music = 'cricket.ogg'
+        break;
+      case 'dun':
+        music = 'dundundun.ogg'
+        break;
+      case 'fail':
+        music = 'fail.ogg'
+        break;
+      case 'heaven':
+        music = 'heaven.ogg'
+        break;
+      case 'kaboom':
+        music = 'kaboom.ogg'
+        break;
+      case 'mlg':
+        music = 'mlg.ogg'
+        break;
+      case 'scream':
+        music = 'scream.ogg'
+        break;
+      case 'slap':
+        music = 'slap.ogg'
+        break;
+      case 'fine':
+        music = 'theyaskyou.ogg'
+        break;
+      case 'toasty':
+        music = 'toasty.ogg'
         break;
       default:
         args[1] = undefined

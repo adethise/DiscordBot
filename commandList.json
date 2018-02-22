@@ -4,19 +4,16 @@
     "Description": "Affiche la liste des commandes.",
     "Usage": "!help"
   },
-
   {
     "Commande": "!google",
     "Description": "Affiche le résultat de la recherche google du paramètre",
     "Usage": "!google paramètreDeRecherche  ex: !google loli hentai mk"
   },
-
   {
     "Commande": "!ping",
     "Description": "Permet de savoir si le bot est réactif",
     "Usage": "!ping"
   },
-
   {
     "Commande": "!yt",
     "Description": "Permet d'écouter une vidéo dans le channel.",

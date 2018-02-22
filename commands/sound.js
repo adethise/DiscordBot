@@ -37,6 +37,12 @@ module.exports = class Sound extends Command{
       case 'teachdawae':
         music = 'teachutheway.mp3'
         break;
+      case 'sad':
+        music = 'titanic.ogg'
+        break;
+      case 'sad2':
+        music = 'titanic2.ogg'
+        break;
       default:
         args[1] = undefined
         break;

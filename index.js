@@ -17,6 +17,7 @@ bot.on('ready', function () {
 })
 
 bot.on('message', function (message){
+    if (message.author.bot) return;
     let commandUsed =
        List.parse(message)
     || Google.parse(message)

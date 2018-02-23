@@ -27,6 +27,7 @@ bot.on('message', function (message){
           message.reply(">help pour les commandes valides.")
         }else{
           cmd.action(message)
+          message.delete()
         }
     }else{
       return

@@ -4,7 +4,7 @@
     "Description": "Affiche la liste des commandes."
   },
   {
-    "Commande": ">google",
+    "Commande": ">google votreRecherche",
     "Description": "Affiche le résultat de la recherche google du paramètre"
   },
   {
@@ -12,11 +12,15 @@
     "Description": "Permet de savoir si le bot est réactif"
   },
   {
-    "Commande": ">yt",
+    "Commande": ">yt url",
     "Description": "Permet d'écouter une vidéo dans le channel."
   },
   {
     "Commande": ">s",
     "Description": "Le bot vient jouer un son dans le channel vocal ou vous êtes."
+  },
+  {
+    "Commande":">slap @someone",
+    "Description": "Megumin explose la personne mentionner pour l'envoyer dans l'espace."
   }
 ]

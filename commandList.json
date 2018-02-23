@@ -18,7 +18,7 @@
   {
     "Commande": ">stop",
     "Description": "Stop la musique en cours. (Non fonctionnel.)"
-  }
+  },
   {
     "Commande": ">s",
     "Description": "Le bot vient jouer un son dans le channel vocal ou vous êtes."

@@ -16,11 +16,15 @@
     "Description": "Permet d'écouter une vidéo dans le channel."
   },
   {
+    "Commande": ">stop",
+    "Description": "Stop la musique en cours. (Non fonctionnel.)"
+  }
+  {
     "Commande": ">s",
     "Description": "Le bot vient jouer un son dans le channel vocal ou vous êtes."
   },
   {
     "Commande":">slap @someone",
-    "Description": "Megumin explose la personne mentionner pour l'envoyer dans l'espace."
+    "Description": "Megumin explose la personne mentionnée pour l'envoyer dans l'espace."
   }
 ]

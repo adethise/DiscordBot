@@ -11,6 +11,7 @@ executor.set('>yt', require('./commands/youtube'))
 executor.set('>s', require('./commands/sound'))
 executor.set('>slap', require('./commands/slap'))
 executor.set('>anime', require('./commands/anime'))
+executor.set('>image', require('./commands/image'))
 //executor.set('>stop', require('./commands/stop'))
 
 bot.login(auth.token)

@@ -29,6 +29,10 @@
   },
   {
     "Commande":">anime votreRecherche",
-    "Description": "Megumin envoie Chomosuke rechercher les informations de l'anime."
+    "Description": "Envoie de Chomosuke pour rechercher les informations de l'anime."
+  },
+  {
+    "Commande":">image votreRecherche",
+    "Description":"Recherche d'une image sur le reddit taper."
   }
 ]

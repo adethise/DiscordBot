@@ -1,4 +1,3 @@
-
 const Command = require('./command')
 const Discord = require('discord.js')
 const malScraper = require('mal-scraper')

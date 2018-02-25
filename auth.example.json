@@ -1,3 +1,9 @@
 {
-    "token": "YOUR_TOKEN"
+    "token": "YOUR_TOKEN",
+    "reddit": {
+	    "clientId": "see reddit > parameters > apps",
+	    "clientSecret": "see reddit > parameters > apps",
+	    "username": "Reddit username",
+	    "password": "Reddit password"
+    }
 }

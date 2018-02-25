@@ -8,6 +8,7 @@
     "bufferutil": "^3.0.3",
     "discord.js": "^11.3.0",
     "ffmpeg": "0.0.4",
+    "mal-scraper": "^2.2.2",
     "opusscript": "0.0.6",
     "ytdl-core": "^0.20.1"
   }

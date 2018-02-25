@@ -26,5 +26,9 @@
   {
     "Commande":">slap @someone",
     "Description": "Megumin explose la personne mentionnée pour l'envoyer dans l'espace."
+  },
+  {
+    "Commande":">anime votreRecherche",
+    "Description": "Megumin envoie Chomosuke rechercher les informations de l'anime."
   }
 ]

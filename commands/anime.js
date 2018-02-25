@@ -1,4 +1,3 @@
-const auth = require('../auth.json')
 const Command = require('./command')
 const Discord = require('discord.js')
 const malScraper = require('mal-scraper')
@@ -39,7 +38,7 @@ module.exports = class anime extends Command{
         collector.on('collect', async function(message){
             entry = parseInt(message.content);
             if( !Number.isInteger(entry) || entry < 0 || entry > 9  ){
-              message.channel.send('Niiiiaaaaarrrkkkk ! Chomosuke ne te comprends pas ! Mets juste le chiffre correspondant.');
+              message.channel.send('Niiiiaaaaarrrkkkk ! Chomosuke ne te comprends pas ! Mets juste le chiffre correspondant la prochaine fois.');
               return;
             }
             try{

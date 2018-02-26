@@ -11,6 +11,7 @@ executor.set('>yt', require('./commands/youtube'))
 executor.set('>s', require('./commands/sound'))
 executor.set('>slap', require('./commands/slap'))
 executor.set('>image', require('./commands/image'))
+executor.set('>belgium', require('./commands/belgium'))
 //executor.set('>anime', require('./commands/anime'))  bug?
 //executor.set('>stop', require('./commands/stop'))
 

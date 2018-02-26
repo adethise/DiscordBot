@@ -34,5 +34,9 @@
   {
     "Commande":">image votreRecherche",
     "Description":"Recherche d'une image sur le reddit taper."
+  },
+  {
+    "Commande":">belgium adjectif",
+    "Description": "Megumin te signale que la Belgique est relevant. Ou autre chose."
   }
 ]
